@@ -5,25 +5,56 @@ body {
     background-size: cover;
     
     font-family: "Jaro", sans-serif;
-     
+     margin: 0;
 }
 
-h1 {
-    color:rgb(156, 18, 18);
-    font-size: 100px;
-    margin: 10px;
+.site-header {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px 32px;
+    background:rgba(0, 0, 0, 0.829);
+    display: flex;
+    box-shadow: 0 10px 24px rgba(136, 1, 1, 0.342);
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
 }
 
-p {
+.logo img {
+    width: 96px;
+    height: auto;
+}
+
+.informacoes .aluno {
+    font-size: 14px;
+    color:rgba(122, 1, 1, 0.671);
+    margin-bottom: 4px;
+}
+
+.informacoes .titulo-site {
+    font-size: 31px;
+    margin: 0;
+    color:rgb(122, 1, 1);
+    text-align: center;
+}
+
+.site-nav a {
+    color: rgb(122, 1, 1);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.site-nav a:hover {
+    text-decoration: underline;
+}
+
+.content {
     color:rgba(160, 160, 160, 0.623);
-    font-size: 80px;
+    font-size: 40px;
 
 }
-.caixa {
-    background-color: rgba(0, 0, 0, 0.61);
-    border-top: double darkred;
-    
-}
+
 .sem {
         padding: 1px;
     }
