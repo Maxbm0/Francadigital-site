@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilo.css" rel="stylesheet">
+</head>
+<body>
+    <div class="bg">
+        <span class="orb orb-1"></span>
+        <span class="orb orb-2"></span>
+        <span class="orb orb-3"></span>
+    </div>
+
+    <main class="page">
+        <section class="grid">
+            <article class="card">
+                <h2>1 - Trocar cor do site</h2>
+                <p>Escolha uma cor para o site</p>
+                <input type="color" id="seletorCor" value="red">
+                <button id="btnAplicarCor">Aplicar cor</button>
+            </article>
+            <article class="card">
+                <h2>2 - Galeria Dinâmica</h2>
+                <p>Clique no botão para selecionar uma imagem</p>
+                <div class="chips">
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1762957044542-583a86b753a3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxMzd8fHxlbnwwfHx8fHw%3D">Cachorro</button>
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1763046287602-7f878927101f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxNDh8fHxlbnwwfHx8fHw%3D">Gato</button>
+                    <button class="chip" data-image="https://images.unsplash.com/photo-1759339433160-7a5828396250?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw0ODF8fHxlbnwwfHx8fHw%3D">Leão</button>
+                </div>
+                <div class="galeria" id="galeriaHero"></div>
+            </article>
+            <article class="card">
+                <h2>3 - Google Maps</h2>
+                <p>Visualização do mapa</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7472.465072726793!2d-47.3989248275757!3d-20.53766443338211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94b0a6227ac02f77%3A0x977eed5af75dd7a2!2sUni-FACEF!5e0!3m2!1spt-BR!2sbr!4v1763821314075!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </article>
+        </section>
+
+        <a class="btn-whatsapp" href="https://wa.me/55169999999999" target="_blank">
+            👾 Fale no Whatsapp
+        </a>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
